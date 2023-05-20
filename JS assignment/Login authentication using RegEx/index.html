@@ -9,6 +9,45 @@
     <script src="app.js" defer></script>
 </head>
 <body>
-    
+    <div class="supercontainer">
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form id="signin">
+                    <h1>Sign-Up</h1>
+                   
+                    <!-- <span>or use your email for registration</span> -->
+                    <input type="text" placeholder="Name" name="name" id=" name" required>
+                   <select name="educational Qualification" id="edQ" required>
+                    <option value="">-Select an option-</option>
+                    <option value="Btech">Btech</option>
+                    <option value="Mtech">Mtech</option>
+                    <option value="PhD">PhD</option>
+                   </select>
+                   <input type="Phone Number" placeholder="number" name="number" id="number" required>
+                   <div id="numalert">
+                    
+                   </div>
+                   <input type="number" placeholder="Age" name="age" id="age" required>
+                   <select name="Gender" id="gender" required>
+                    <option value="">-Select your Gender-</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                   </select>
+                   <input type="text" name="City" id="city" placeholder="city" required>
+                    <input type="email" placeholder="Email" name="email" id="email" required>
+                    <div id="emailalert">
+                    
+                    </div>
+                    <input type="password" placeholder="Enter Password" name="password" id="pwd" required/>
+                    <input type="password" placeholder="Confirm Password" name="confirm_password" id="cpwd" required/>
+                    <div id="passwordalert">
+                    
+                    </div>
+                    <button id="submit" type="submit" onclick="myfun()">Sign Up</button>
+                </form>
+        </div>
+    </div>
+
 </body>
 </html>
